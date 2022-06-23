@@ -53,6 +53,7 @@ button {
   height: 80px;
   border-radius: 40px;
   transition: .4s ease;
+  cursor: pointer;
 }
 
 .yellowish {
