@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="app.css">
-  <script src="app.js"></script>
   <title>JS-Calculator</title>
 </head>
+
 <body>
-<div class="container">
-  <div class="calculator">
-      <div class="display">
-        <input data-action="userInput" type="text" value="12345678" id="userInput" readonly>
-      </div>
+  <div class="container">
+    <div class="calculator">
+      <div class="display"></div>
       <div class="keys">
         <button data-action="clear" class="grayish">AC</button>
-        <button data-action="add" class="grayish">+/-</button>
+        <button data-action="backspace" class="grayish"><i class="fa-solid fa-arrow-left-long"></i></button>
         <button data-action="percent" class="grayish">%</button>
         <button data-action="divide" class="yellowish">÷</button>
         <button>7</button>
         <button>8</button>
         <button>9</button>
-        <button data-action="multiple" class="yellowish">&times;</button>
+        <button data-action="multiple" class="yellowish" id="special">*</button>
         <button>4</button>
         <button>5</button>
         <button>6</button>
@@ -30,13 +30,14 @@
         <button>1</button>
         <button>2</button>
         <button>3</button>
-        <button class="yellowish">+</button>
+        <button data-action="add" class="yellowish">+</button>
         <button class="span">0</button>
         <button data-action="decimal">.</button>
         <button data-action="equal" class="yellowish">=</button>
+      </div>
     </div>
   </div>
-</div>
 
+  <script src="app.js"></script>
 </body>
 </html>
