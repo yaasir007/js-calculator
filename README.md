@@ -1,3 +1,3 @@
-<h2 align="center">Js-Calculator</h2>
+<h2 align="center">JS-Calculator</h2>
 
-<img src="Screenshot/rock game.png">
+<img src="screenshot/clone.png">
